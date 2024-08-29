@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Jokenpô</title>
+</head>
+
+<body>
+    <main class="container">
+        <div class="results">
+            <div>
+                <span class="user-result">
+                    <img src="img/pedra.png" alt="escolha usuario">
+                </span>
+                <span class="computer-result">
+                    <img src="img/pedra.png" alt="escolha computador">
+                </span>
+            </div>
+            <p class="result-text">Bora Jogar ?</p>
+        </div>
+
+        <div class="options">
+            <span class="option-image">
+                <img src="img/pedra.png" alt="Pedra">
+                <p>Pedra</p>
+            </span>
+            <span class="option-image">
+                <img src="img/papel.png" alt="papel" border="0">
+                <p>Papel</p>
+            </span>
+            <span class="option-image">
+                <img src="img/tesoura.png" alt="tesoura" border="0">
+                <p>Tesoura</p>
+            </span>
+        </div>
+    </main>
+    <div class="score">
+        <h1>Placar</h1>
+        <div class="scoreboard">
+            <p>Jogador: <span id="user-score">0</span></p>
+            <p>Computador: <span id="computer-score">0</span></p>
+            <p>Empates: <span id="draw-score">0</span></p>
+        </div>
+        
+    </div>
+
+</body>
+<script src="script.js"></script>
+
+</html>
